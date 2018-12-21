@@ -1,0 +1,19 @@
+footer {
+  font-family: aqua;
+  font-size: 1em;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer img{
+  max-width: 60px;
+	max-height: 60px;
+  transition: opacity ease 0.7s;
+
+}
+footer img:hover{
+  opacity:0.5;
+}

@@ -1,0 +1,202 @@
+/* Charte graphique : https://flatuicolors.com/palette/cn */
+/*
+Golden Sand: #eccc68
+Orange : #ffa502
+Lim Soap : #7bed9f
+Ufo Green : #2ed573
+Coral : #ff7f50
+Bruschetta Tomato : #ff6348
+French Sky Blue : #70a1ff
+Clear Chill : #1e90ff
+Wild Watermelon : #ff6b81
+Watermelon : #ff4757
+Saturated Sky : #5352ed
+Bright Greek : #3742fa
+Peacee : #a4b0be
+Bay Wharf : #747d8c
+White : #ffffff
+Anti-Flash White : #f1f2f6
+Grisaille : #57606f
+Prestige Blue : #2f3542
+City Lights : #dfe4ea
+Twinkle Blue : #ced6e0
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ced6e0;
+}
+
+.title {
+  font-family: aqua;
+  text-align: center;
+  font-size: 5em;
+  color: #2f3542;
+  padding: 5px;
+}
+
+hr {
+  height: 3px;
+  width: 30%;
+  background-color: #2f3542;
+}
+
+main {
+  height: auto;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.personne {
+ width: 300px;
+}
+.personne img {
+  max-width: 300px;
+
+}
+.personne p {
+
+    font-family: toon;
+    text-align: center;
+    font-size: 120%;
+    margin: 50px;
+    color: #2f3542;
+
+}
+
+h2 {
+  font-family: aqua;
+  text-align: center;
+  font-size: 3em;
+  margin: 50px;
+  color: #2f3542;
+}
+
+h3{
+  font-family: aqua;
+  text-align: center;
+  font-size: 2em;
+  margin: 50px;
+  color: #2f3542;
+}
+
+.presentation, .ranking {
+  max-width: 80%;
+  margin: auto;
+
+}
+
+p,li, .presentation p, .ranking p {
+  font-family: toon;
+  font-size: 2em;
+  text-align: center;
+  margin: 50px;
+  list-style: none;
+}
+.presentation h2 {
+  font-family: toon;
+  text-align: center;
+  font-size: 2.7em;
+  margin: 50px;
+  text-decoration: underline;
+  color: #961748;
+}
+
+.presentation h3 {
+  font-family: toon;
+  text-align: center;
+  font-size: 2.7em;
+  margin: 50px;
+  text-decoration: underline;
+  color: #d100fc;
+}
+.presentation h4 {
+  font-family: toon;
+  text-align: center;
+  font-size: 2.7em;
+  margin: 50px;
+  text-decoration: underline;
+  color: #7836ca;
+}
+
+
+.ranking h1 {
+  font-family: toon;
+  text-align: center;
+  font-size: 2.7em;
+  margin: 50px;
+  text-decoration: underline;
+  color: #17a5da;
+}
+.ranking h2 {
+  font-family: toon;
+  text-align: center;
+  font-size: 2.7em;
+  margin: 50px;
+  text-decoration: underline;
+  color: #33dd62;
+}
+
+.ranking h3 {
+  font-family: toon;
+  text-align: center;
+  font-size: 2.7em;
+  margin: 50px;
+  text-decoration: underline;
+  color: #185f47;
+}
+.ranking h4 {
+  font-family: toon;
+  text-align: center;
+  font-size: 2.7em;
+  margin: 50px;
+  text-decoration: underline;
+  color: #bf8d2a;
+}
+.ranking h5 {
+  font-family: toon;
+  text-align: center;
+  font-size: 2.7em;
+  margin: 50px;
+  text-decoration: underline;
+  color: #cc5e00;
+}
+.ranking h6 {
+  font-family: toon;
+  text-align: center;
+  font-size: 2.7em;
+  margin: 50px;
+  text-decoration: underline;
+  color: #ff0000;
+}
+
+.title h1 {
+  font-family: aqua;
+  text-align: center;
+  font-size: 5em;
+  color: #2f3542;
+  padding: 5px;
+}
+
+h1 {
+  font-family: aqua;
+  text-align: center;
+  font-size: 5em;
+  color: #2f3542;
+  padding: 5px;
+}
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #57606f;
+  text-decoration: underline;
+
+}
